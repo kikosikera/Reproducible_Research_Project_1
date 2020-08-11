@@ -183,7 +183,7 @@ assign avg to all NA in a new dataset:
         }
     }
 
-#### Histogram after missing values are imputed:
+####  Histogram after missing values are imputed:
 
     agg3 <- aggregate(steps ~ date, FUN = sum, data = act)
     qplot(agg3$steps)
